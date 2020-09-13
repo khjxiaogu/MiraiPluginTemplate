@@ -12,8 +12,8 @@ import net.mamoe.mirai.console.plugin.jvm.SimpleJvmPluginDescription;
  * file: MiraiSongPlugin.java
  * time: 2020年8月26日
  */
-public class TemplatePlugin extends JavaPlugin{
-	public TemplatePlugin() {
+public class Main extends JavaPlugin{
+	public Main() {
 		super(new SimpleJvmPluginDescription(PluginData.name,PluginData.version,PluginData.author,PluginData.info));
 	}
 	@Override

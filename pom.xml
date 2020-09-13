@@ -55,6 +55,8 @@
 		</plugins>
 	</build>
 	<properties>
+		<mirai.plugin.main>${project.groupId}.${project.artifactId}.Main</mirai.plugin.main>
+        <mirai.plugin.author>khjxiaogu</mirai.plugin.author>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
