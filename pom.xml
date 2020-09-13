@@ -8,7 +8,7 @@
 	<name>TemplatePlugin</name>
 	<description></description>
 	<build>
-		<finalName>${project.name}-1.0-${project.version}</finalName>
+		<finalName>${project.name}-${project.version}</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
