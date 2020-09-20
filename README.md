@@ -1,5 +1,5 @@
 # mirai插件模板
-用于快速生成mirai插件
+用于快速生成mirai java插件，IDE为eclipse。  
 # 食用方法
 0. 使用模板创建git项目。  
 1. git clone到本地。  
