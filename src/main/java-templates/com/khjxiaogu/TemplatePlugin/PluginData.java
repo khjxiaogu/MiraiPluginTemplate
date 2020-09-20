@@ -8,9 +8,10 @@ package com.khjxiaogu.TemplatePlugin;
  * time: 2020年9月12日
  */
 public class PluginData {
-	
+	/** The name.<br> 插件id. */
+	public static String id="@mirai.plugin.id@";
 	/** The name.<br> 插件名称. */
-	public static String name="@project.name@";
+	public static String name="@mirai.plugin.name@";
 	
 	/** The ver.<br> 插件版本. */
 	public static String version="@project.version@";
@@ -19,6 +20,6 @@ public class PluginData {
 	public static String author="@mirai.plugin.author@";
 	
 	/** The info.<br> 插件信息. */
-	public static String info="@project.description@";
+	public static String info="@mirai.plugin.info@";
 
 }
