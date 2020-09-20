@@ -55,12 +55,12 @@
 		</plugins>
 	</build>
 	<properties>
-		<!--mirai插件定义-->
+		<!--mirai插件定义 -->
 		<mirai.plugin.main>${project.groupId}.${project.artifactId}.Main</mirai.plugin.main>
-        <mirai.plugin.author>khjxiaogu</mirai.plugin.author>
-        <mirai.plugin.name>${project.name}</mirai.plugin.name>
-        <mirai.plugin.id>${project.groupId}.mirai.${project.artifactId}</mirai.plugin.id>
-        <mirai.plugin.info>${project.description}</mirai.plugin.info>
+		<mirai.plugin.author>khjxiaogu</mirai.plugin.author>
+		<mirai.plugin.name>${project.name}</mirai.plugin.name>
+		<mirai.plugin.id>${project.groupId}.mirai.${project.artifactId}</mirai.plugin.id>
+		<mirai.plugin.info>${project.description}</mirai.plugin.info>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -90,4 +90,5 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	<url>https://github.com/khjxiaogu/MiraiPluginTemplate</url>
 </project>
